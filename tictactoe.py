@@ -76,7 +76,7 @@ while (True):
     
     winner=win(matrix)
     if depth==9:
-        print("IT'S A FUCKING DRAW. YOU ARE LOSERS BOTH OF YOU")
+        print("IT'S A DRAW. YOU ARE LOSERS BOTH OF YOU :p")
         break
     
     if winner=='none':
@@ -93,9 +93,9 @@ while (True):
     if winner != 'none':
         if(p1c=='X'):
             if winner=='X':
-                print(p1+ " is the WINNER\n"+p2+" SUCKS")
+                print(p1+ " is the WINNER\n"+p2+" SUCKS <3 ")
             else:
-                print(p2+ " is the WINNER\n"+p1+" SUCKS")
+                print(p2+ " is the WINNER\n"+p1+" SUCKS <3 ")
         break
 
     
